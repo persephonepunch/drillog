@@ -192,8 +192,8 @@ async function setupViewer(){
         document.body.style.cursor = "grab"
         lenis.stop()
 
-        gsap.to(position, {x: -2.6, y: 0.2, z: -9.6, duration: 2, ease: "power3.inOut", onUpdate})
-        gsap.to(target, {x: -0.15, y: 1.18 , z: 0.12, duration: 2, ease: "power3.inOut", onUpdate, onComplete: enableControlers})
+        gsap.to(position, {x:.8, y: 1.5, z: 7.1, duration: 2, ease: "power3.inOut", onUpdate})
+        gsap.to(target, {x: -1.15, y: -0.1, z: .37, duration: 2, ease: "power3.inOut", onUpdate, onComplete: enableControlers})
 	})
 
     function enableControlers(){
