@@ -265,6 +265,7 @@ footer{
     width: 360px;
     margin-left: 6%;
     margin-top: 40%;
+    z-index: 1;
   }
 
   .section--one--container > p {
