@@ -86,7 +86,7 @@ async function setupViewer(){
 
     await manager.addFromPath("./assets/sabaside.glb")
 
-    const drillMaterial = manager.materials!.findMaterialsByName('Drill_01')[0] as MeshBasicMaterial2
+    const drillMaterial = manager.materials!.findMaterialsByName('Saba_Italia_New_York_mat_3__mtl_2')[0] as MeshBasicMaterial2
 
     viewer.getPlugin(TonemapPlugin)!.config!.clipBackground = true // in case its set to false in the glb
 
@@ -227,7 +227,7 @@ async function setupViewer(){
     })
 
     document.querySelector('.button--colors.yellow')?.addEventListener('click', () => {
-		changeColor(new Color(0xffffff).convertSRGBToLinear())
+		changeColor(new Color(0xe8b62d).convertSRGBToLinear())
     })
 
     function changeColor(_colorToBeChanged: Color){
