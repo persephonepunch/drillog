@@ -238,6 +238,9 @@ footer{
   background-color: rgb(74, 76, 79);
 }
 
+.pink {
+  background-color: rgb(229, 18, 142);
+}
 /* MOBILE ADJUSTMENTS */
 
 @media (max-width: 600px) {

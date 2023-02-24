@@ -230,6 +230,10 @@ async function setupViewer(){
 		changeColor(new Color(0xe8b62d).convertSRGBToLinear())
     })
 
+    document.querySelector('.button--colors.pink')?.addEventListener('click', () => {
+		changeColor(new Color(0xe5128e).convertSRGBToLinear())
+    })
+
     function changeColor(_colorToBeChanged: Color){
         drillMaterial.color = _colorToBeChanged;
         viewer.scene.setDirty()
